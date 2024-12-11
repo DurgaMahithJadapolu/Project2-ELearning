@@ -1,0 +1,189 @@
+
+@media (min-width: 1400px) {
+  
+
+    .logo {
+      width: 100px; /* Larger logo for better visibility */
+    }
+  
+   
+  
+    .logo-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+  
+    .logo-subtext {
+      width: 500px;
+      height: 50px;
+      font-size: 1.0rem;
+      line-height: 1.5;
+    }
+  
+  
+    
+  
+    nav {
+      gap: 3rem; /* More spacing between nav items */
+    }
+  
+    .nav-item {
+      font-size: 1.2rem; /* Larger font for navigation links */
+    }
+  
+    
+  }
+  
+  @media (min-width: 1200px) {
+    
+  
+    .logo {
+      width: 100px; /* Larger logo for better visibility */
+    }
+  
+   
+  
+    .logo-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+  
+    .logo-subtext {
+      width: 400px;
+      height: 40px;
+
+      font-size: 0.8rem;
+      line-height: 1.3;
+    }
+  
+  
+    
+  
+    nav {
+      gap: 3rem; /* More spacing between nav items */
+    }
+  
+    .nav-item {
+      font-size: 1.2rem; /* Larger font for navigation links */
+    }
+  
+    
+  }
+  
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .header-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 120px;
+      border-bottom: 2px solid black; /* Increase height for small screens */
+    }
+  
+    .logo {
+      height: 50px; /* Ensure logo remains proportionate */
+      width: auto;
+    }
+  
+    .logo-text {
+      flex: 1;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .logo-title {
+      font-size: 1rem;
+    }
+  
+    .logo-subtext {
+      font-size: 0.5rem;
+      width: 300px; /* Specify the width of the container */
+    text-align: start; /* Align text to the left, center, or right */
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words to fit within the width */
+    margin: 0 auto;
+     
+    }
+  
+  
+    /* Adjust the toggle button position to fit the increased height */
+    .toggle-button {
+      position: absolute;
+      width: 20px;
+      height: 10px;
+      top: 20px; /* Center the toggle button vertically within the increased header */
+      right: 20px;
+      border: none;
+      background: none;
+    }
+  }
+  
+  
+  
+  
+  
+  /* For extra small screens (max-width: 576px) */
+  @media (max-width: 576px) {
+    .header-content {
+      height: 140px; /* Further increase height for extra small screens */
+      padding: 10px;
+      border-bottom: 2px solid black; 
+    }
+  
+    .logo {
+      height: 40px; /* Slightly smaller logo for very small screens */
+    }
+  
+    .logo-title {
+      font-size: 0.9rem;
+    }
+  
+    .logo-subtext {
+      font-size: 0.3rem;
+    }
+  
+    .toggle-button {
+      top: 0px;
+      right: 0px; /* Adjust toggle button position for increased header height */
+    }
+  }
+  
+  
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bgimg{
+    background-image: url('../Images//Group\ 11111.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 180px; /* Adjust based on your preferred image size */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+     /* Adjust padding for text alignment */
+     border-radius: 10px;
+     cursor: pointer;
+  
+  }
+  
+  .card-body {
+    color: white; /* Ensure the text is visible on the image */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .card-title, .card-text {
+    margin: 0;
+    
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  

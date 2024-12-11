@@ -1,0 +1,20 @@
+.about-screen {
+    background: #f8f9fa;
+  }
+  
+  h2 {
+    font-weight: 700;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bi-eye-slash {
+    font-size: 1.2rem;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
